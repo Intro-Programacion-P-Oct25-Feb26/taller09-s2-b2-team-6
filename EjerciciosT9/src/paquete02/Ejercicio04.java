@@ -38,7 +38,7 @@ public class Ejercicio04 {
 
                     if (promedio >= 9 && promedio <= 10) {
                         promediosCualitativos[i] = "Sobresaliente";
-                        
+
                     } else {
 
                         promediosCualitativos[i] = "Fuera del Rango";
@@ -50,5 +50,7 @@ public class Ejercicio04 {
             System.out.printf("%s promedio: %.2f promedio cualitativo %s%n",
                     estudiantes[i], promedios[i], promediosCualitativos[i]);
         }
+
     }
+
 }
