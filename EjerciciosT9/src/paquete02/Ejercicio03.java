@@ -32,7 +32,8 @@ public class Ejercicio03 {
         for (int i = 0; i < arreglo.length; i++) {
             if (arreglo[i] > media) {
                 arriba++;
-            } else if (arreglo[i] < media) {
+            } else{
+                if (arreglo[i] < media) {
                 abajo++;
             }
         }
@@ -44,3 +45,5 @@ public class Ejercicio03 {
                 abajo);
     }
 }
+}
+

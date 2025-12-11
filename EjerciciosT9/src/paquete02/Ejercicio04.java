@@ -22,6 +22,9 @@ public class Ejercicio04 {
             "Juan Vasquez"};
         String[] promediosCualitativos = new String[7];
         
+        for(int i= 0;  i < promedios.length; i++) {
+        
+        
     }
 
 }
