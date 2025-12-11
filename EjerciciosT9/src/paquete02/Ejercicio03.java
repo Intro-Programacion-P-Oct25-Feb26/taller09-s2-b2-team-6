@@ -32,18 +32,17 @@ public class Ejercicio03 {
         for (int i = 0; i < arreglo.length; i++) {
             if (arreglo[i] > media) {
                 arriba++;
-            } else{
+            } else {
                 if (arreglo[i] < media) {
-                abajo++;
+                    abajo++;
+                }
             }
-        }
 
-        System.out.printf("Media aritmética: %.2f\nValores arriba de la"
-                + " media aritmética: %d\nValores "
-                + "abajo de la media aritmética: %d\n", media,
-                arriba,
-                abajo);
+            System.out.printf("Media aritmética: %.2f\nValores arriba de la"
+                    + " media aritmética: %d\nValores "
+                    + "abajo de la media aritmética: %d\n", media,
+                    arriba,
+                    abajo);
+        }
     }
 }
-}
-
