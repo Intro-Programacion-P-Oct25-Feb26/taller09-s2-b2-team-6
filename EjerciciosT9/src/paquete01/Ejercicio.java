@@ -39,7 +39,8 @@ public class Ejercicio {
                 case "a":
                 case "c":
                 case "t":
-                    System.out.println("Marca no válida (empieza con A, C o T). Intente otra.");
+                    System.out.println("Marca no válida (empieza con A, C o T)."
+                            + " Intente otra.");
                     i--; 
                     break;
                 default:
@@ -48,7 +49,8 @@ public class Ejercicio {
         }
 
         for (int i = 0; i < arreglo1.length; i++) {
-            System.out.printf("\nLA MARCA INGREESADA ES:\nMarca: %s -> %d", arreglo1[i], i);
+            System.out.printf("\nLA MARCA INGREESADA ES:\nMarca: %S -> %d"
+                    , arreglo1[i], i);
         }
     }
 }
